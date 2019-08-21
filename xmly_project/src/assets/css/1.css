@@ -1,0 +1,156 @@
+
+/* header */
+.header{
+	width: 100%;
+	height: .35rem;
+	background: #f7f7f7;
+	border-bottom: 1px solid #d2d2d2;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	padding-top: .2rem;
+/*  -webkit-align-items: center; */
+}
+.header img{
+	width: .22rem;
+	height: .22rem;
+}
+.header p{
+	font-size: .18rem;
+	color: #1c1c1c;
+	margin-left: 1.26rem;
+	margin-right: 1.26rem;
+}
+/* nav */
+.nav{
+	width: 100%;
+	height: .35rem;
+	display: -webkit-flex;
+	overflow-x:auto;
+	line-height: .4rem;
+	border-bottom: 1px solid #d2d2d2;
+}
+.nav a{
+	display: block;
+	color: #636363;
+	font-size: .15rem;
+	-webkit-flex-shrink:0;
+	margin-right: .31rem;
+}
+.nav :first-child{
+	margin-left: .12rem;
+}
+.nav::-webkit-scrollbar{
+		display:none
+	}
+/* section */
+
+.section{
+	width: 100%;
+	height: 5.75rem;
+	/* height: 100%; */
+	display: -webkit-flex;
+	-webkit-flex:1;
+
+}
+.left::-webkit-scrollbar{
+		display:none
+	}
+.left{
+	width: .9rem;
+	/* height:100%; */
+	background: #f1f5f8;
+	overflow-y: auto;
+
+}
+.left li{
+	color: black;
+}
+.rigth{
+	width: 2.85rem;
+	/* height:100% ; */
+	-webkit-flex: 1;
+	overflow-y: auto;
+}
+.rigth::-webkit-scrollbar{
+		display:none
+	}
+.left li{
+	font-size: .13rem;
+	width: .92rem;
+	height: .5rem;
+	text-align: center;
+	line-height:.5rem ;
+	border-bottom: 1px solid #d1d5d8;
+	border-top: 1px solid #d1d5d8;
+}
+.left1{
+	background: #ffffff;
+}
+.r1{
+	width: 2.85rem;
+	height: 1.05rem;
+	display: -webkit-flex;
+}
+.r2{
+	width: 1rem;
+	height: .85rem;
+	padding-top: .2rem;
+	display: -webkit-flex;
+}
+.r3{
+	width: .19rem;
+	height: .19rem;
+	padding-left: 6px;
+	margin-right: .1rem;
+}
+.r4{
+	float: right;
+	width: .65rem;
+	height: .65rem;
+}
+.r5{
+	width: 1.7rem;
+	height: .85rem;
+	padding-top: .2rem;
+	border-bottom: 1px solid #d1d5d8;
+}
+.word1{
+	font-size: .15rem;
+	color: #151515;
+	padding-left: .11rem;
+}
+.word2{
+	font-size: .11rem;
+	color: #afafaf;
+	padding-left: .11rem;
+	/* margin-top: 12px;
+	margin-bottom: 3px; */
+	line-height: .28rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.img5{
+	width: 10px;
+	height: 14px;
+	margin-right: 3px;
+}
+.img6{
+	width: 10px;
+	height: 14px;
+	margin-right: 3px;
+}
+.r6{
+	height:24px ;
+	padding-left: .11rem;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+
+}
+.r6 span{
+	font-size: .1rem;
+	color: #afafaf;
+}
+.word3{
+	margin-right: 3px;
+}
